@@ -1,0 +1,13 @@
+// vite.config.ts
+import { sveltekit } from "file:///D:/Fiverr/Chris/remodelling/farming-davinci-v2/node_modules/@sveltejs/kit/src/exports/vite/index.js";
+import { defineConfig } from "file:///D:/Fiverr/Chris/remodelling/farming-davinci-v2/node_modules/vitest/dist/config.js";
+var vite_config_default = defineConfig({
+  plugins: [sveltekit()],
+  test: {
+    include: ["src/**/*.{test,spec}.{js,ts}"]
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJEOlxcXFxGaXZlcnJcXFxcQ2hyaXNcXFxccmVtb2RlbGxpbmdcXFxcZmFybWluZy1kYXZpbmNpLXYyXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJEOlxcXFxGaXZlcnJcXFxcQ2hyaXNcXFxccmVtb2RlbGxpbmdcXFxcZmFybWluZy1kYXZpbmNpLXYyXFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9EOi9GaXZlcnIvQ2hyaXMvcmVtb2RlbGxpbmcvZmFybWluZy1kYXZpbmNpLXYyL3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IHsgc3ZlbHRla2l0IH0gZnJvbSAnQHN2ZWx0ZWpzL2tpdC92aXRlJztcbmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGVzdC9jb25maWcnO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuXHRwbHVnaW5zOiBbc3ZlbHRla2l0KCldLFxuXHR0ZXN0OiB7XG5cdFx0aW5jbHVkZTogWydzcmMvKiovKi57dGVzdCxzcGVjfS57anMsdHN9J11cblx0fVxufSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQXNVLFNBQVMsaUJBQWlCO0FBQ2hXLFNBQVMsb0JBQW9CO0FBRTdCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzNCLFNBQVMsQ0FBQyxVQUFVLENBQUM7QUFBQSxFQUNyQixNQUFNO0FBQUEsSUFDTCxTQUFTLENBQUMsOEJBQThCO0FBQUEsRUFDekM7QUFDRCxDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
