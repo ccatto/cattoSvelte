@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth bg-white antialiased">
+	<head>
+		<!-- Meta Pixel Code -->
+
+		<script>
+			// (function (W, i, s, e, P, o, p) {
+			// 	W['WisePopsObject'] = P;
+			// 	W[P] = W[P] || function () {
+			// 	(W[P].q = W[P].q || []).push(arguments);
+			// 	};
+			// 	W[P].l = 1 * new Date();
+			// 	o = i.createElement(s);
+			// 	p = i.getElementsByTagName(s)[0];
+			// 	o.defer = 1;
+			// 	o.src = e;
+			// 	p.parentNode.insertBefore(o, p);
+			// })(window, document, 'script', '//loader.wisepops.com/get-loader.js?v=1&site=CQKyRKKsyB', 'wisepops');
+
+			!(function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s);
+			})(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '607754367853297');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=607754367853297&ev=PageView&noscript=1" /></noscript>
+		<!-- End Meta Pixel Code -->
+	</head>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1 " />
+
+	<link rel="icon" href="https://res.cloudinary.com/bdaspanish1/image/upload/c_thumb,g_face,w_35/v1647192105/branding_marketing/365CarShopLogo-no-bg_apzfmd.png" />
+
+	%sveltekit.head%
+
+	<body class="flex h-full flex-col">
+		<div id="svelte">%sveltekit.body%</div>
+
+		<script data-cfasync="false">
+			(function (w, i, s, e) {
+				window[w] =
+					window[w] ||
+					function () {
+						(window[w].q = window[w].q || []).push(arguments);
+					};
+				window[w].l = Date.now();
+				s = document.createElement('script');
+				e = document.getElementsByTagName('script')[0];
+				s.defer = 1;
+				s.src = i;
+				e.parentNode.insertBefore(s, e);
+			})('wisepops', 'https://wisepops.net/loader.js?v=2&h=Xwi4ztkziU');
+		</script>
+
+		<!-- <script data-cfasync="false">(function(w,i,s,e){window[w]=window[w]||function(){(window[w].q=window[w].q||[]).push(arguments)};window[w].l=Date.now();s=document.createElement('script');e=document.getElementsByTagName('script')[0];s.defer=1;s.src=i;e.parentNode.insertBefore(s, e)})('wisepops', 'https://wisepops.net/loader.js?v=2&h=ySBfCV8XdC');</script> -->
+
+		<!-- <script data-cfasync="false">(function(w,i,s,e){window[w]=window[w]||function(){(window[w].q=window[w].q||[]).push(arguments)};window[w].l=Date.now();s=document.createElement('script');e=document.getElementsByTagName('script')[0];s.defer=1;s.src=i;e.parentNode.insertBefore(s, e)})('wisepops', 'https://wisepops.net/loader.js?v=2&h=ks7FTLT2fL');</script> -->
+
+		<!-- <script data-cfasync="false">
+			(function(W,i,s,e,P,o,p){
+				W['WisePopsObject']=P;
+				W[P]=W[P]||function(){
+					(W[P].q=W[P].q||[]).push(arguments)
+				};
+				W[P].l=1*new Date();
+				o=i.createElement(s);
+				p=i.getElementsByTagName(s)[0];
+				o.defer=1;
+				o.src=e;
+				p.parentNode.insertBefore(o,p);
+			})(window,document,'script','//loader.wisepops.com/get-loader.js?v=1&site=CQKyRKKsyB','wisepops');
+		</script> -->
+	</body>
+</html>
