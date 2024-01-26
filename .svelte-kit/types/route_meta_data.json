@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+page.js",
+		"src/routes/+layout.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/blog": [
+		"src/routes/blog/+page.js",
+		"src/routes/+layout.server.js"
+	],
+	"/blog/author/[...author]": [
+		"src/routes/+layout.server.js"
+	],
+	"/blog/blog-post/[...post]": [
+		"src/routes/+layout.server.js"
+	],
+	"/inventory/[...vehicles]": [
+		"src/routes/inventory/[...vehicles]/+page.server.js",
+		"src/routes/+layout.server.js"
+	]
+}
